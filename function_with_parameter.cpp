@@ -10,3 +10,7 @@ void input() { // fungsi untuk input data
     cin >> lebar; // membaca input lebar
 }
 
+int luasPersegi(int p, int l) { // fungsi untuk menghitung luas persegi panjang dengan parameter
+    return p * l; // mengembalikan hasil luas persegi panjang
+}
+
