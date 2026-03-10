@@ -14,3 +14,7 @@ int luasPersegi() { // fungsi untuk menghitung luas persegi panjang
     return panjang * lebar; // mengembalikan hasil luas persegi panjang
 }
 
+void output() { // fungsi untuk output hasil
+    cout << "Hasilnya: " << luasPersegi(); // menampilkan hasil luas persegi panjang
+}
+
