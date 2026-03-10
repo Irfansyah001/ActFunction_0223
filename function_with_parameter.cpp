@@ -18,3 +18,7 @@ int kelilingPersegi(int p, int l) { // fungsi untuk menghitung keliling persegi 
     return 2 * (p + l); // mengembalikan hasil keliling persegi panjang
 }
 
+void output() { // fungsi untuk output hasil
+    cout << "Luasnya: " << luasPersegi(panjang, lebar) << endl; // menampilkan hasil luas persegi panjang
+}
+
