@@ -14,3 +14,7 @@ int luasPersegi(int p, int l) { // fungsi untuk menghitung luas persegi panjang 
     return p * l; // mengembalikan hasil luas persegi panjang
 }
 
+int kelilingPersegi(int p, int l) { // fungsi untuk menghitung keliling persegi panjang dengan parameter
+    return 2 * (p + l); // mengembalikan hasil keliling persegi panjang
+}
+
