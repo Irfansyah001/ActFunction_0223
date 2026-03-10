@@ -22,3 +22,8 @@ void output() { // fungsi untuk output hasil
     cout << "Luasnya: " << luasPersegi(panjang, lebar) << endl; // menampilkan hasil luas persegi panjang
 }
 
+int main() { // fungsi utama
+    input(); // memanggil fungsi input untuk mendapatkan data
+    output(); // memanggil fungsi output untuk menampilkan hasil
+    cout << "Kelilingnya: " << kelilingPersegi(panjang, lebar); // menampilkan hasil keliling persegi panjang
+}
